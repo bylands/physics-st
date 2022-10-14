@@ -80,7 +80,7 @@ dependencies:
   # - markupsafe=2.1.1=py310hca72f7f_0
   - matplotlib=3.5.2
   # - matplotlib-base=3.5.2=py310hfb0c5b7_0
-  # - matplotlib-inline=0.1.6=py310hecd8cb5_0
+  - matplotlib-inline=0.1.6
   # - mistune=0.8.4=py310hca72f7f_1000
   # - mkl=2021.4.0=hecd8cb5_637
   # - mkl-service=2.4.0=py310hca72f7f_0
