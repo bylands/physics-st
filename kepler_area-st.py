@@ -1,4 +1,3 @@
-from math import ceil
 import streamlit as st
 import numpy as np
 import pandas as pd
@@ -73,7 +72,7 @@ sol = solve_ivp(func, t_span, planets_data[planet][0], t_eval=t_eval, \
 a = (max(sol.y[0])-min(sol.y[0]))/2
 b = (max(sol.y[1])-min(sol.y[1]))/2
 
-t_eval = t_eval[ceil(angle_steps/2)::angle_steps]
+t_eval = t_eval[np.ceil(angle_steps/2)::angle_steps]
 
 x0 = sol.y[0]
 y0 = sol.y[1]
